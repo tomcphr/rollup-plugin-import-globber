@@ -1,0 +1,36 @@
+{
+  "name": "rollup-plugin-import-globber",
+  "version": "1.0.0",
+  "description": "A rudimentary mimic of Vite's import meta glob for Rollup",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "typings/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomcphr/rollup-plugin-import-globber.git"
+  },
+  "keywords": [
+    "rollup",
+    "glob"
+  ],
+  "author": "tomcphr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomcphr/rollup-plugin-import-globber/issues"
+  },
+  "homepage": "https://github.com/tomcphr/rollup-plugin-import-globber#readme",
+  "dependencies": {
+    "@rollup/pluginutils": "^5.0.2",
+    "@types/node": "^20.1.0",
+    "acorn": "^8.8.2",
+    "fast-glob": "^3.2.12",
+    "magic-string": "^0.30.0",
+    "rollup": "^3.21.5",
+    "strip-literal": "^1.0.1",
+    "typescript": "^5.0.4"
+  }
+}
