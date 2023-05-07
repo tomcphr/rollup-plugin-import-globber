@@ -9,7 +9,7 @@ yarn install rollup-plugin-import-globber
 
 You will need to define the typings in your tsconfig:
 ```json
-"types": ["./node_modules/rollup-plugin-import-globber/typings/index.d.ts"],
+"types": ["./node_modules/rollup-plugin-import-globber/typings"],
 ```
 
 You can then use the glob method on `import.meta` in your code
